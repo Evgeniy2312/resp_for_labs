@@ -1,0 +1,19 @@
+{
+  "name": "resp_for_labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeniy2312/resp_for_labs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgeniy2312/resp_for_labs/issues"
+  },
+  "homepage": "https://github.com/Evgeniy2312/resp_for_labs#readme"
+}
