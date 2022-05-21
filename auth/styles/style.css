@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: white;
+  background: url(https://funart.pro/uploads/posts/2021-04/thumbs/1618587490_29-funart_pro-p-oboi-fon-krasnii-sinii-chernii-29.jpg) no-repeat center/cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .register {
+  margin: 3px 0 20px 0;
+  font-size: 50px;
+}
+
+.container .add_info {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.container .personal_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 512.8px;
+  max-width: 100%;
+}
+
+.container .personal_info .text {
+  color: #796d6d;
+  margin-right: 100px;
+}
+
+.container .personal_info .first {
+  margin-right: 110px;
+}
+
+.container .personal_info .info {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.562);
+  padding: 2px 15px;
+  color: white;
+  color: #aca6a6;
+  font-size: large;
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.container .personal_info .info::-webkit-input-placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.container .personal_info .info:-ms-input-placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.container .personal_info .info::-ms-input-placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.container .personal_info .info::placeholder {
+  font-size: large;
+  color: #aca6a6;
+}
+
+.container .personal_info .info:active {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.562);
+}
+
+.container .personal_info .input_gender {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.container .personal_info .input_type_account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.container .personal_info .submit {
+  border: 2px solid gray;
+  padding: 7px 40px;
+  border-color: aquamarine;
+  border-radius: 15px;
+  background-color: #1b9bbb;
+  color: aliceblue;
+  font-weight: 600;
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+  margin-top: 5px;
+}
+
+.container .personal_info .submit:hover {
+  background-color: #116175;
+  cursor: pointer;
+}
+
+.container .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  gap: 5px;
+}
+
+.container .login .link {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.75;
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+
+.container .login .link:hover {
+  opacity: 1;
+}
+
+.container .users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px;
+}
+
+.container .users .information {
+  margin: 5px;
+  color: wheat;
+  font-style: italic;
+}
+
+.container .users button {
+  margin: 5px;
+  padding: 7px 20px;
+  border-radius: 50px;
+  border-color: #0f0c0c;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+
+.container .users button:hover {
+  background-color: #615b5b;
+}
+/*# sourceMappingURL=style.css.map */

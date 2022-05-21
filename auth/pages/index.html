@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="register">Register</h1>
+        <p class="add_info">Please fill your information in this form</p>
+        <div class="personal_info">
+            <div class="form">
+                <div class="name">
+                    <input type="text" name="name" size="20" autocomplete="none" placeholder="Name" class="info"
+                        required>
+                </div>
+                <div class="email"><input type="email" autocomplete="none" name="email" size="20" placeholder="Email"
+                class="info" req>
+                </div>
+
+                <div class="input_gender">
+                    <p class="text">Gender</p>
+                    <input type="radio" name="gender" value="male" id="genders">
+                    <label for="genders" class="first">
+                        Male
+                    </label>
+                    <input type="radio" name="gender" value="female" id="genders">
+                    <label for="genders">
+                        Female
+                    </label>
+                </div>
+                <div class="input_type_account">
+                    <p class="text">Account Type</p>
+                    <input type="radio" name="type_account" value="free" id="type">
+                    <label for="type" class="first">
+                        Free
+                    </label>
+                    <input type="radio" name="type_account" value="pro" id="type">
+                    <label for="type">
+                        Pro
+                    </label>
+                </div>
+                <div class="username"><input type="text" name="username" size="20" placeholder="Username" autocomplete="none" class="info"
+                        required>
+                </div>
+                <div class="zip_code"><input type="text" name="zip_code" size="20" placeholder="Zip Code" autocomplete="none" class="info"
+                        required>
+                </div>
+                <div class="phone"><input type="text" name="phone" size="20" placeholder="Phone" autocomplete="none"
+                        class="info" required> </div>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <div class="login">
+            <p>Already have an account?</p>
+            <a class="link" href="http://www.linkedin.com/in/evgeniy-matveev-9a095a225/">Login</a>
+        </div>
+        <div class="users">
+            
+        </div>
+    </div>
+    <script src="../js/usersInterface.js"></script>
+    <script src="../js/users.js"></script>
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
